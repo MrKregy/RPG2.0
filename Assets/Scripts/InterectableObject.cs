@@ -8,4 +8,3 @@ public class InterectableObject : MonoBehaviour
         return itemName;
     }
 }
-s
