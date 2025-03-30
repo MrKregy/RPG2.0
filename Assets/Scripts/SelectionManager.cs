@@ -30,5 +30,10 @@ public class SelectionManager : MonoBehaviour
                 objectInfo.SetActive(false);
             }
         }
+        else
+        {
+            objectInfo.SetActive(false);
+        }
+
     }
 }
