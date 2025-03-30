@@ -3,19 +3,18 @@ using UnityEngine;
 public class InterectableObject : MonoBehaviour
 {
     public string itemName;
-    public bool playerInRange;
-
-
     public string GetItemName()
     {
         return itemName;
     }
-    private void OnTriggerEnter;
-    {
 
+    private void OnTriggerEnter(Collider other)
+    {
+        
     }
-    private void OnTriggerExit;
-    {
 
+    private void OnTriggerExit(Collider other)
+    {
+        
     }
 }
